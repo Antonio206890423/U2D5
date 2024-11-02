@@ -167,7 +167,7 @@ footer h3{
     align-items: center;
     font-weight: 500;
     font-size: 16px;
-    font-family: roboto;
+    font-family: "roboto", sans-serif;
 }
 
 footer h4{
@@ -188,14 +188,35 @@ footer h5{
 
 footer p{
     display: flex;
-    font-family: roboto, sans-serif;
+    font-family: "roboto", sans-serif;
     opacity: 0.5;
     font-weight: 500;
     font-size: 17px;
 }
+footer span{
+    border: #ebebeb;
+    width: fit-content;
+    padding: 4px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    height: 22px;
+}
+.info{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.info h3{
+    font-family: "roboto", sans-serif;
+    font-size: 22px;
+    padding-bottom: 1rem;
+    font-weight: 900;
+}
+
 .info button{
     background-color: transparent;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
     opacity: 0.5;
